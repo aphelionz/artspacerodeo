@@ -1,0 +1,182 @@
+[
+  {
+    "id": "bowdoin",
+    "name": "Bowdoin College",
+    "gallery_name": "Bowdoin College Museum of Art",
+    "type": "college",
+    "state": "ME",
+    "city": "Brunswick",
+    "url": "https://www.bowdoin.edu/art-museum/",
+    "exhibitions_url": "https://www.bowdoin.edu/art-museum/exhibitions/"
+  },
+  {
+    "id": "bates",
+    "name": "Bates College",
+    "gallery_name": "Bates College Museum of Art",
+    "type": "college",
+    "state": "ME",
+    "city": "Lewiston",
+    "url": "https://www.bates.edu/museum/",
+    "exhibitions_url": "https://www.bates.edu/museum/exhibitions/"
+  },
+  {
+    "id": "colby",
+    "name": "Colby College",
+    "gallery_name": "Colby College Museum of Art",
+    "type": "college",
+    "state": "ME",
+    "city": "Waterville",
+    "url": "https://www.colby.edu/museum/",
+    "exhibitions_url": "https://www.colby.edu/museum/exhibitions/"
+  },
+  {
+    "id": "meca",
+    "name": "Maine College of Art & Design",
+    "gallery_name": "Institute of Contemporary Art at MECA&D",
+    "type": "college",
+    "state": "ME",
+    "city": "Portland",
+    "url": "https://www.meca.edu/about/galleries-and-exhibitions/",
+    "exhibitions_url": "https://www.meca.edu/artists-at-work-3/on-view/"
+  },
+  {
+    "id": "massart",
+    "name": "Massachusetts College of Art and Design",
+    "gallery_name": "MassArt Art Museum + Campus Galleries",
+    "type": "college",
+    "state": "MA",
+    "city": "Boston",
+    "url": "https://massart.edu/",
+    "exhibitions_url": "https://massart.edu/exhibitions/"
+  },
+  {
+    "id": "brandeis",
+    "name": "Brandeis University",
+    "gallery_name": "Rose Art Museum",
+    "type": "college",
+    "state": "MA",
+    "city": "Waltham",
+    "url": "https://www.brandeis.edu/rose/",
+    "exhibitions_url": "https://www.brandeis.edu/rose/exhibitions/index.html"
+  },
+  {
+    "id": "middlebury",
+    "name": "Middlebury College",
+    "gallery_name": "Middlebury College Museum of Art",
+    "type": "college",
+    "state": "VT",
+    "city": "Middlebury",
+    "url": "https://www.middlebury.edu/museum/",
+    "exhibitions_url": "https://www.middlebury.edu/museum/exhibitions"
+  },
+  {
+    "id": "hood",
+    "name": "Dartmouth College",
+    "gallery_name": "Hood Museum of Art",
+    "type": "college",
+    "state": "NH",
+    "city": "Hanover",
+    "url": "https://hoodmuseum.dartmouth.edu/",
+    "exhibitions_url": "https://hoodmuseum.dartmouth.edu/explore/on-view"
+  },
+  {
+    "id": "pma",
+    "name": "Portland Museum of Art",
+    "gallery_name": "Portland Museum of Art",
+    "type": "museum",
+    "state": "ME",
+    "city": "Portland",
+    "url": "https://www.portlandmuseum.org/",
+    "exhibitions_url": "https://www.portlandmuseum.org/whats-on/"
+  },
+  {
+    "id": "farnsworth",
+    "name": "Farnsworth Art Museum",
+    "gallery_name": "Farnsworth Art Museum",
+    "type": "museum",
+    "state": "ME",
+    "city": "Rockland",
+    "url": "https://www.farnsworthmuseum.org/",
+    "exhibitions_url": "https://www.farnsworthmuseum.org/exhibitions/"
+  },
+  {
+    "id": "mfa-boston",
+    "name": "Museum of Fine Arts, Boston",
+    "gallery_name": "Museum of Fine Arts, Boston",
+    "type": "museum",
+    "state": "MA",
+    "city": "Boston",
+    "url": "https://www.mfa.org/",
+    "exhibitions_url": "https://www.mfa.org/exhibitions"
+  },
+  {
+    "id": "ica-boston",
+    "name": "Institute of Contemporary Art",
+    "gallery_name": "ICA Boston",
+    "type": "museum",
+    "state": "MA",
+    "city": "Boston",
+    "url": "https://www.icaboston.org/",
+    "exhibitions_url": "https://www.icaboston.org/exhibitions"
+  },
+  {
+    "id": "gardner",
+    "name": "Isabella Stewart Gardner Museum",
+    "gallery_name": "Isabella Stewart Gardner Museum",
+    "type": "museum",
+    "state": "MA",
+    "city": "Boston",
+    "url": "https://www.gardnermuseum.org/",
+    "exhibitions_url": "https://www.gardnermuseum.org/exhibitions"
+  },
+  {
+    "id": "pem",
+    "name": "Peabody Essex Museum",
+    "gallery_name": "Peabody Essex Museum",
+    "type": "museum",
+    "state": "MA",
+    "city": "Salem",
+    "url": "https://www.pem.org/",
+    "exhibitions_url": "https://www.pem.org/exhibitions"
+  },
+  {
+    "id": "boston-athenaeum",
+    "name": "Boston Athenaeum",
+    "gallery_name": "Boston Athenaeum",
+    "type": "museum",
+    "state": "MA",
+    "city": "Boston",
+    "url": "https://www.bostonathenaeum.org/",
+    "exhibitions_url": "https://www.bostonathenaeum.org/exhibitions/"
+  },
+  {
+    "id": "brattleboro",
+    "name": "Brattleboro Museum & Art Center",
+    "gallery_name": "Brattleboro Museum & Art Center",
+    "type": "museum",
+    "state": "VT",
+    "city": "Brattleboro",
+    "url": "https://www.brattleboromuseum.org/",
+    "exhibitions_url": "https://www.brattleboromuseum.org/exhibits/current-exhibits/"
+  },
+  {
+    "id": "bennington",
+    "name": "Bennington Museum",
+    "gallery_name": "Bennington Museum",
+    "type": "museum",
+    "state": "VT",
+    "city": "Bennington",
+    "url": "https://benningtonmuseum.org/",
+    "exhibitions_url": "https://benningtonmuseum.org/whats-on-view/special-exhibitions/"
+  },
+  {
+    "id": "currier",
+    "name": "Currier Museum of Art",
+    "gallery_name": "Currier Museum of Art",
+    "type": "museum",
+    "state": "NH",
+    "city": "Manchester",
+    "url": "https://currier.org/",
+    "exhibitions_url": "https://www.currier.org/all-exhibitions"
+  }
+]

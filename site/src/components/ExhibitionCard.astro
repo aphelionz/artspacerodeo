@@ -1,0 +1,46 @@
+---
+interface Props {
+  title: string;
+  schoolName: string;
+  galleryName: string;
+  state: string;
+  startDate: string | null;
+  endDate: string | null;
+  url: string;
+  description: string | null;
+  imageUrl: string | null;
+}
+
+const { title, schoolName, galleryName, state, startDate, endDate, url, description, imageUrl } = Astro.props;
+
+function formatDate(dateStr: string | null): string {
+  if (!dateStr) return "";
+  const d = new Date(dateStr + "T00:00:00");
+  return d.toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" });
+}
+
+const dateDisplay = startDate || endDate
+  ? `${formatDate(startDate) || "?"} - ${formatDate(endDate) || "?"}`
+  : "Dates TBD";
+
+const imgSrc = imageUrl || "/placeholder.svg";
+const showSchoolName = schoolName !== galleryName;
+---
+
+<a class="exhibition-card" href={url} target="_blank" rel="noopener noreferrer">
+  <div class="card-image">
+    <img src={imgSrc} alt={title} loading="lazy" />
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">{title}</h3>
+    <div class="card-meta">
+      <span class="card-school">
+        {showSchoolName ? schoolName : galleryName}
+        <span class="state-badge" data-state={state}>{state}</span>
+      </span>
+      {showSchoolName && <span style="color: var(--muted); font-size: 0.75rem;">{galleryName}</span>}
+      <span class="card-dates">{dateDisplay}</span>
+      {description && <p style="margin-top: 0.5rem; font-size: 0.8125rem; color: var(--muted);">{description.slice(0, 150)}{description.length > 150 ? '...' : ''}</p>}
+    </div>
+  </div>
+</a>

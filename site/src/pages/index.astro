@@ -1,0 +1,184 @@
+---
+import Base from "../layouts/Base.astro";
+import ExhibitionCard from "../components/ExhibitionCard.astro";
+import fs from "node:fs";
+import path from "node:path";
+
+// Load data at build time
+const dataDir = path.resolve("../data");
+const exhibitionsRaw = fs.readFileSync(path.join(dataDir, "exhibitions.json"), "utf-8");
+const schoolsRaw = fs.readFileSync(path.join(dataDir, "schools.json"), "utf-8");
+
+const exhibitions = JSON.parse(exhibitionsRaw);
+const schools = JSON.parse(schoolsRaw);
+
+// Build school lookup
+const schoolMap = Object.fromEntries(schools.map((s: any) => [s.id, s]));
+
+// Sort exhibitions: those with dates first (by end date), then undated
+const sorted = [...exhibitions].sort((a: any, b: any) => {
+  if (a.end_date && b.end_date) return a.end_date.localeCompare(b.end_date);
+  if (a.end_date) return -1;
+  if (b.end_date) return 1;
+  return 0;
+});
+
+// Split by institution type
+const museumExhibitions = sorted.filter((ex: any) => schoolMap[ex.school_id]?.type === "museum");
+const collegeExhibitions = sorted.filter((ex: any) => schoolMap[ex.school_id]?.type === "college");
+
+// Get unique states for each section
+const museumStates = [...new Set(museumExhibitions.map((ex: any) => schoolMap[ex.school_id]?.state).filter(Boolean))].sort() as string[];
+const collegeStates = [...new Set(collegeExhibitions.map((ex: any) => schoolMap[ex.school_id]?.state).filter(Boolean))].sort() as string[];
+
+function renderCard(ex: any) {
+  const school = schoolMap[ex.school_id];
+  if (!school) return null;
+  let desc = ex.description;
+  if (desc && /^(January|February|March|April|May|June|July|August|September|October|November|December)\s+\d/.test(desc)) {
+    desc = null;
+  }
+  return { ex, school, desc };
+}
+---
+
+<Base>
+  <!-- Museum Exhibitions -->
+  <section id="museums-section">
+    <h2 class="section-title">Museum Exhibitions</h2>
+
+    {museumExhibitions.length > 0 ? (
+      <>
+        <div class="filters" id="museum-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          {museumStates.map((state) => (
+            <button class="filter-btn" data-filter={state}>{state}</button>
+          ))}
+        </div>
+
+        <p class="stats" id="museum-stats">
+          {museumExhibitions.length} exhibitions across {new Set(museumExhibitions.map((ex: any) => ex.school_id)).size} museums
+        </p>
+
+        <div class="exhibition-grid" id="museum-grid">
+          {museumExhibitions.map((ex: any) => {
+            const data = renderCard(ex);
+            if (!data) return null;
+            return (
+              <div class="grid-item" data-state={data.school.state} data-school={data.school.id}>
+                <ExhibitionCard
+                  title={data.ex.title}
+                  schoolName={data.school.name}
+                  galleryName={data.school.gallery_name}
+                  state={data.school.state}
+                  startDate={data.ex.start_date}
+                  endDate={data.ex.end_date}
+                  url={data.ex.url}
+                  description={data.desc}
+                  imageUrl={data.ex.image_url}
+                />
+              </div>
+            );
+          })}
+        </div>
+
+        <div class="empty-state" id="museum-empty" style="display: none;">
+          No museum exhibitions found for this filter.
+        </div>
+      </>
+    ) : (
+      <p class="empty-state">No museum exhibitions currently listed.</p>
+    )}
+  </section>
+
+  <hr class="section-divider" />
+
+  <!-- College & University Galleries -->
+  <section id="colleges-section">
+    <h2 class="section-title section-title-secondary">College & University Galleries</h2>
+
+    {collegeExhibitions.length > 0 ? (
+      <>
+        <div class="filters" id="college-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          {collegeStates.map((state) => (
+            <button class="filter-btn" data-filter={state}>{state}</button>
+          ))}
+        </div>
+
+        <p class="stats" id="college-stats">
+          {collegeExhibitions.length} exhibitions across {new Set(collegeExhibitions.map((ex: any) => ex.school_id)).size} galleries
+        </p>
+
+        <div class="exhibition-grid" id="college-grid">
+          {collegeExhibitions.map((ex: any) => {
+            const data = renderCard(ex);
+            if (!data) return null;
+            return (
+              <div class="grid-item" data-state={data.school.state} data-school={data.school.id}>
+                <ExhibitionCard
+                  title={data.ex.title}
+                  schoolName={data.school.name}
+                  galleryName={data.school.gallery_name}
+                  state={data.school.state}
+                  startDate={data.ex.start_date}
+                  endDate={data.ex.end_date}
+                  url={data.ex.url}
+                  description={data.desc}
+                  imageUrl={data.ex.image_url}
+                />
+              </div>
+            );
+          })}
+        </div>
+
+        <div class="empty-state" id="college-empty" style="display: none;">
+          No college exhibitions found for this filter.
+        </div>
+      </>
+    ) : (
+      <p class="empty-state">No college exhibitions currently listed.</p>
+    )}
+  </section>
+</Base>
+
+<script>
+  function setupFilters(filtersId: string, gridId: string, statsId: string, emptyId: string, label: string) {
+    const buttons = document.querySelectorAll<HTMLButtonElement>(`#${filtersId} .filter-btn`);
+    const grid = document.getElementById(gridId);
+    const stats = document.getElementById(statsId);
+    const empty = document.getElementById(emptyId);
+    if (!grid || !stats || !empty) return;
+
+    const cards = grid.querySelectorAll<HTMLDivElement>(":scope > div");
+
+    buttons.forEach((btn) => {
+      btn.addEventListener("click", () => {
+        const filter = btn.dataset.filter!;
+
+        buttons.forEach((b) => b.classList.remove("active"));
+        btn.classList.add("active");
+
+        let visible = 0;
+        cards.forEach((card) => {
+          const show = filter === "all" || card.dataset.state === filter;
+          card.style.display = show ? "" : "none";
+          if (show) visible++;
+        });
+
+        const sourceCount = new Set(
+          Array.from(cards)
+            .filter((c) => filter === "all" || c.dataset.state === filter)
+            .map((c) => c.dataset.school)
+        ).size;
+
+        stats.textContent = `${visible} exhibition${visible !== 1 ? "s" : ""} across ${sourceCount} ${label}${sourceCount !== 1 ? "s" : ""}`;
+        empty.style.display = visible === 0 ? "" : "none";
+        grid.style.display = visible === 0 ? "none" : "";
+      });
+    });
+  }
+
+  setupFilters("museum-filters", "museum-grid", "museum-stats", "museum-empty", "museum");
+  setupFilters("college-filters", "college-grid", "college-stats", "college-empty", "gallery");
+</script>

@@ -1,0 +1,12 @@
+.DS_Store
+**/.DS_Store
+.claude/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# essay source staging (originals live off-repo)
+/Janet Knott Photo Essay */

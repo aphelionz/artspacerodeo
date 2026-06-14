@@ -1,0 +1,29 @@
+---
+import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+
+const essays = await getCollection("essays");
+const sorted = essays.sort((a, b) => b.data.date.localeCompare(a.data.date));
+---
+
+<Base title="Photo Essays | Art Space Rodeo">
+  <h2 class="section-title">Photo Essays</h2>
+  <p class="section-subtitle">Weekly dispatches from New England's art scene</p>
+
+  {sorted.length > 0 ? (
+    <div class="essay-list">
+      {sorted.map((essay) => (
+        <a href={`/essays/${essay.id}`} class="essay-card">
+          <img src={essay.data.coverImage} alt={essay.data.title} loading="lazy" />
+          <div class="essay-card-body">
+            <h3>{essay.data.title}</h3>
+            <time>{new Date(essay.data.date + "T00:00:00").toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</time>
+            <p>{essay.data.description}</p>
+          </div>
+        </a>
+      ))}
+    </div>
+  ) : (
+    <p class="empty-state">No essays yet. Check back soon.</p>
+  )}
+</Base>

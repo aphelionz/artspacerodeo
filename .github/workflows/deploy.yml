@@ -21,11 +21,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Build Astro site
-        uses: withastro/action@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          path: ./site
-          node-version: 22
+          python-version: "3.12"
+      - name: Render static site
+        run: python build.py
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
 
   deploy:
     needs: build

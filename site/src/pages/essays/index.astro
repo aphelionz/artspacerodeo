@@ -8,7 +8,15 @@ const sorted = essays.sort((a, b) => b.data.date.localeCompare(a.data.date));
 
 <Base title="Photo Essays | Art Space Rodeo">
   <h2 class="section-title">Photo Essays</h2>
-  <p class="section-subtitle">Weekly dispatches from New England's art scene</p>
+  <p class="section-subtitle">Dispatches from New England's art scene</p>
+
+  <div class="author-bio">
+    <img src="/janet-knott.jpg" alt="Janet Knott" class="author-bio-photo" />
+    <p>
+      <strong>Janet Knott</strong> is a former Boston Globe staff photographer, one
+      of the first women in that role, and the essayist behind Art Space Rodeo.
+    </p>
+  </div>
 
   {sorted.length > 0 ? (
     <div class="essay-list">

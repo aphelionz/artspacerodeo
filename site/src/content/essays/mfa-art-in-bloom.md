@@ -1,6 +1,6 @@
 ---
 title: "Art in Bloom at the MFA"
-date: "2026-06-14"
+date: "2026-05-07"
 description: "Flowers meet the collection at the Museum of Fine Arts: arrangements, gardens, and the long conversation between humanity and the natural world."
 coverImage: "/essays/mfa-art-in-bloom/01-art-in-bloom-arrangement.jpg"
 author: "Janet Knott"

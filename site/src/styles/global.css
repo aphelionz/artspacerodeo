@@ -354,6 +354,30 @@ header p {
   margin-bottom: 2rem;
 }
 
+.author-bio {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0 2rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.author-bio-photo {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.author-bio p {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--muted);
+  margin: 0;
+}
+
 /* Footer */
 footer {
   border-top: 1px solid var(--border);

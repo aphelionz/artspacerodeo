@@ -1,5 +1,16 @@
 [
   {
+    "title": "USA @ 250",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/usa@250.html",
+    "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/usaat250-website-exhibition-thumbnail1.jpg",
+    "description": null,
+    "school_id": "bowdoin",
+    "scraped_at": "2026-07-04T12:25:23Z",
+    "id": "bowdoin-usa-250"
+  },
+  {
     "title": "Celebrating Independence! Fifty Years of Spindleworks, 1976\u20132026",
     "start_date": null,
     "end_date": null,
@@ -7,7 +18,7 @@
     "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/spindleworks-website-exhibition-thumbnail.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-celebrating-independence-fifty-years-of-spindleworks-1976-2026"
   },
   {
@@ -15,10 +26,10 @@
     "start_date": null,
     "end_date": null,
     "url": "https://www.bowdoin.edu/art-museum/exhibitions/2028/currents.html",
-    "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/currents-website-exhibition-thumbnail.jpg",
+    "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/currents-website-exhibition-thumbnail-v3.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-currents-art-since-1900"
   },
   {
@@ -29,7 +40,7 @@
     "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/legacies-website-exhibition-thumbnail.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-legacies-art-from-renaissance-europe-and-the-americas"
   },
   {
@@ -40,7 +51,7 @@
     "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2027/images/wyvern-website-exhibition-thumbnail-800x500-v2.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-medieval-art-from-the-wyvern-collection-global-networks-and-creative-connections"
   },
   {
@@ -51,7 +62,7 @@
     "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2026/images/front-lines-website-exhibition-thumbnail-800x500.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-front-lines-women-etchers-at-the-fore-1880-to-today"
   },
   {
@@ -62,7 +73,7 @@
     "image_url": "https://www.bowdoin.edu/art-museum/exhibitions/2024/images/ram-head_rhyton_1923_23-web-thumbnail1.jpg",
     "description": null,
     "school_id": "bowdoin",
-    "scraped_at": "2026-06-13T14:13:33Z",
+    "scraped_at": "2026-07-04T12:25:23Z",
     "id": "bowdoin-flora-et-fauna-nature-in-ancient-mediterranean-art-and-culture"
   },
   {
@@ -73,7 +84,7 @@
     "image_url": "https://museum-backend.colby.edu/wp-content/uploads/2026/02/lamb_01.atticblue.jpeg",
     "description": "New commissions by contemporary artists activate Betsy James Wyeth\u2019s transformation of Allen and Benner Islands, extending their history as living sites of artistic response.",
     "school_id": "colby",
-    "scraped_at": "2026-06-13T14:13:36Z",
+    "scraped_at": "2026-07-04T12:25:26Z",
     "id": "colby-by-design-the-worlds-of-betsy-james-wyeth"
   },
   {
@@ -84,7 +95,7 @@
     "image_url": "https://museum-backend.colby.edu/wp-content/uploads/2026/01/Katz_Out-of-Sight_2.10_1953_Trees_CCMA_1995.136_001_am_HR.jpg",
     "description": "The first major exhibition in more than three decades to explore Alex Katz\u2019s drawings, revealing their essential role in his creative process.",
     "school_id": "colby",
-    "scraped_at": "2026-06-13T14:13:36Z",
+    "scraped_at": "2026-07-04T12:25:26Z",
     "id": "colby-alex-katz-out-of-sight-a-drawing-survey"
   },
   {
@@ -95,7 +106,7 @@
     "image_url": "https://museum-backend.colby.edu/wp-content/uploads/2026/01/1997.042_001.jpg",
     "description": "A career-spanning selection of paintings, prints, drawings, and sculptures reflecting Alex Katz\u2019s enduring attention to the ever-shifting qualities of the people and landscapes around him.",
     "school_id": "colby",
-    "scraped_at": "2026-06-13T14:13:36Z",
+    "scraped_at": "2026-07-04T12:25:26Z",
     "id": "colby-alex-katz-quick-things-passing"
   },
   {
@@ -106,7 +117,7 @@
     "image_url": "https://museum-backend.colby.edu/wp-content/uploads/2025/05/2023.046_002_pm1.jpg",
     "description": "A thematic presentation of works from the Colby collection in the museum\u2019s Lunder Wing that leads visitors on a journey from before the founding of the United States to the present day.",
     "school_id": "colby",
-    "scraped_at": "2026-06-13T14:13:36Z",
+    "scraped_at": "2026-07-04T12:25:26Z",
     "id": "colby-some-american-stories"
   },
   {
@@ -117,7 +128,7 @@
     "image_url": null,
     "description": null,
     "school_id": "meca",
-    "scraped_at": "2026-06-13T14:13:38Z",
+    "scraped_at": "2026-07-04T12:25:28Z",
     "id": "meca-knitting-circle-at-49-oak"
   },
   {
@@ -128,7 +139,7 @@
     "image_url": "https://maam.massart.edu/sites/default/files/styles/exhibition_teaser_medium_1x/public/2026-06/right_1-CI58September2022_0.jpg?h=cb151d6c&itok=tzR6WpYs",
     "description": null,
     "school_id": "massart",
-    "scraped_at": "2026-06-13T14:13:40Z",
+    "scraped_at": "2026-07-04T12:25:30Z",
     "id": "massart-banu-cenneto-lu"
   },
   {
@@ -139,7 +150,7 @@
     "image_url": "https://maam.massart.edu/sites/default/files/styles/exhibition_teaser_medium_1x/public/2026-06/full_3.jpg?h=c8e9c32b&itok=UHSxYxB7",
     "description": null,
     "school_id": "massart",
-    "scraped_at": "2026-06-13T14:13:40Z",
+    "scraped_at": "2026-07-04T12:25:30Z",
     "id": "massart-robert-lazzarini"
   },
   {
@@ -150,7 +161,7 @@
     "image_url": "https://maam.massart.edu/sites/default/files/styles/exhibition_teaser_medium_1x/public/2026-02/Jamkatel_Robin_MAAM_BaseeraKhan_01_0.jpg?h=60ce2d47&itok=64zMM1ri",
     "description": null,
     "school_id": "massart",
-    "scraped_at": "2026-06-13T14:13:40Z",
+    "scraped_at": "2026-07-04T12:25:30Z",
     "id": "massart-baseera-khan"
   },
   {
@@ -161,7 +172,7 @@
     "image_url": "https://maam.massart.edu/sites/default/files/styles/exhibition_teaser_small_1x/public/2024-06/1A3A2574_MelTaing_16.jpg?h=0ea322e6&itok=umvAKbTk",
     "description": null,
     "school_id": "massart",
-    "scraped_at": "2026-06-13T14:13:40Z",
+    "scraped_at": "2026-07-04T12:25:30Z",
     "id": "massart-freedom-baird-m-16"
   },
   {
@@ -172,7 +183,7 @@
     "image_url": "https://www.brandeis.edu/rose/exhibitions/index.html/2026/yinka-shonibare-images/sanctuary-city-square.jpg",
     "description": "Yinka Shonibare's poignant installation, \"Sanctuary City,\" explores the contested nature of refuge through illuminated miniature architectural models, tracing the historical and political complexities of sanctuary while confronting the moral imperatives of protection in an era of global displacement",
     "school_id": "brandeis",
-    "scraped_at": "2026-06-13T14:13:42Z",
+    "scraped_at": "2026-07-04T12:25:32Z",
     "id": "brandeis-yinka-shonibare-sanctuary"
   },
   {
@@ -183,7 +194,7 @@
     "image_url": "https://www.brandeis.edu/rose/exhibitions/index.html/2015/images/dion-thumb-2.jpg",
     "description": "Permanent Installation",
     "school_id": "brandeis",
-    "scraped_at": "2026-06-13T14:13:42Z",
+    "scraped_at": "2026-07-04T12:25:32Z",
     "id": "brandeis-mark-dion-the-undisciplined-collector"
   },
   {
@@ -194,7 +205,7 @@
     "image_url": "https://www.brandeis.edu/rose/exhibitions/index.html/2021/light-of-reason-images/light-of-reason-735x735.jpg",
     "description": "Permanent installation",
     "school_id": "brandeis",
-    "scraped_at": "2026-06-13T14:13:42Z",
+    "scraped_at": "2026-07-04T12:25:32Z",
     "id": "brandeis-chris-burden-light-of-reason"
   },
   {
@@ -205,7 +216,7 @@
     "image_url": "https://www.middlebury.edu/museum/sites/default/files/styles/240x135/public/2026-06/nicholas_nixon_self_02_brookline.jpg?fv=X-fHxdrn&itok=cErbx9-v",
     "description": "May 23\u2013August 9, 2026",
     "school_id": "middlebury",
-    "scraped_at": "2026-06-13T14:13:43Z",
+    "scraped_at": "2026-07-04T12:25:33Z",
     "id": "middlebury-with-time"
   },
   {
@@ -216,41 +227,30 @@
     "image_url": "https://www.middlebury.edu/museum/sites/default/files/styles/240x135/public/2024-06/church_otter_creek_1440w.jpg?fv=QyR-nn45&itok=6OubYjma",
     "description": "May 23\u2013August 9, 2026",
     "school_id": "middlebury",
-    "scraped_at": "2026-06-13T14:13:43Z",
+    "scraped_at": "2026-07-04T12:25:33Z",
     "id": "middlebury-frederic-church-in-vermont"
   },
   {
-    "title": "Window and Mirror: Distinctions Between Artists and Their Subjects",
-    "start_date": "2026-05-09",
-    "end_date": "2026-07-11",
-    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/window-and-mirror",
-    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/sfd130.jpeg?itok=OKVlGJxF",
-    "description": null,
-    "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
-    "id": "hood-window-and-mirror-distinctions-between-artists-and-their-subjects"
-  },
-  {
-    "title": "Art Histories/Art Futures",
-    "start_date": "2026-01-10",
-    "end_date": "2026-07-25",
-    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/art-historiesart-futures",
-    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/ah_af_install1.jpeg?itok=5QpxHE9y",
-    "description": null,
-    "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
-    "id": "hood-art-histories-art-futures"
-  },
-  {
-    "title": "Inhabiting Historical Time: Slavery and Its Afterlives",
+    "title": "Michelangelo Lovelace: Art Saved My Life",
     "start_date": null,
     "end_date": null,
-    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/inhabiting-historical-time",
-    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/iht_install1.jpeg?itok=RLRbIMLT",
+    "url": "https://www.middlebury.edu/museum/exhibitions/2026/michelangelo-lovelace-art-saved-my-life",
+    "image_url": "https://www.middlebury.edu/museum/sites/default/files/styles/240x135/public/2026-06/michelangelo_lovelace_self_portrait_1200w.jpg?fv=zQDSuF1g&itok=Q7oiFFQm",
+    "description": "September 4, 2026\u2013January 10, 2027",
+    "school_id": "middlebury",
+    "scraped_at": "2026-07-04T12:25:33Z",
+    "id": "middlebury-michelangelo-lovelace-art-saved-my-life"
+  },
+  {
+    "title": "La Mirada Boricua: Making Spaces for Self-Reflection and Decolonial Thought",
+    "start_date": "2026-06-27",
+    "end_date": "2026-11-21",
+    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/la-mirada-boricua",
+    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/la_mirada_boricua_install.jpeg?itok=AFe8xn3m",
     "description": null,
     "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
-    "id": "hood-inhabiting-historical-time-slavery-and-its-afterlives"
+    "scraped_at": "2026-07-04T12:25:37Z",
+    "id": "hood-la-mirada-boricua-making-spaces-for-self-reflection-and-decolonial-thought"
   },
   {
     "title": "Nurturing Nationhood: Artistic Constructions of America, 1790\u20131940",
@@ -260,8 +260,30 @@
     "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/rs1189014_2089_exh-pre_2026-001_lpr.jpg?itok=HMLcAZiT",
     "description": null,
     "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
+    "scraped_at": "2026-07-04T12:25:37Z",
     "id": "hood-nurturing-nationhood-artistic-constructions-of-america-1790-1940"
+  },
+  {
+    "title": "Inhabiting Historical Time: Slavery and Its Afterlives",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/inhabiting-historical-time",
+    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/iht_install1.jpeg?itok=RLRbIMLT",
+    "description": null,
+    "school_id": "hood",
+    "scraped_at": "2026-07-04T12:25:37Z",
+    "id": "hood-inhabiting-historical-time-slavery-and-its-afterlives"
+  },
+  {
+    "title": "Art Histories/Art Futures",
+    "start_date": "2026-01-10",
+    "end_date": "2026-07-25",
+    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/art-historiesart-futures",
+    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/ah_af_install1.jpeg?itok=5QpxHE9y",
+    "description": null,
+    "school_id": "hood",
+    "scraped_at": "2026-07-04T12:25:37Z",
+    "id": "hood-art-histories-art-futures"
   },
   {
     "title": "Revolution Reconsidered: History, Myth, and Propaganda",
@@ -271,19 +293,19 @@
     "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/20251021-installation-0001.jpg?itok=SkUSJYDH",
     "description": null,
     "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
+    "scraped_at": "2026-07-04T12:25:37Z",
     "id": "hood-revolution-reconsidered-history-myth-and-propaganda"
   },
   {
-    "title": "overlooked",
-    "start_date": "2026-03-28",
-    "end_date": "2026-06-20",
-    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/overlooked",
-    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/overlooked_install_1.jpeg?itok=-JUcVNfz",
+    "title": "American Pop",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://hoodmuseum.dartmouth.edu/explore/exhibitions/american-pop",
+    "image_url": "https://hoodmuseum.dartmouth.edu/sites/hoodmuseum.prod/files/styles/max_320/public/hoodmuseum/images/exhibition_images/american_pop_install2_16x9_photo_by_rob_strong.jpg?itok=xKWpKr-n",
     "description": null,
     "school_id": "hood",
-    "scraped_at": "2026-06-13T14:13:45Z",
-    "id": "hood-overlooked"
+    "scraped_at": "2026-07-04T12:25:37Z",
+    "id": "hood-american-pop"
   },
   {
     "title": "Precious: The Value of\u00a0Ornament",
@@ -293,8 +315,19 @@
     "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/01/2023.48a-c_pmLarge.avif",
     "description": null,
     "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
+    "scraped_at": "2026-07-04T12:25:39Z",
     "id": "pma-precious-the-value-of-ornament"
+  },
+  {
+    "title": "Winslow Homer: Painter,\u00a0Etcher",
+    "start_date": null,
+    "end_date": "2026-10-18",
+    "url": "https://www.portlandmuseum.org/exhibitions/winslow-homer-painter-etcher/",
+    "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/01/1930.379_Addison_excelLarge.avif",
+    "description": null,
+    "school_id": "pma",
+    "scraped_at": "2026-07-04T12:25:39Z",
+    "id": "pma-winslow-homer-painter-etcher"
   },
   {
     "title": "Jared Lank: Bay of\u00a0Herons",
@@ -304,7 +337,7 @@
     "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/01/Jared-Lank-Bay-of-Herons-Still-3.avif",
     "description": null,
     "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
+    "scraped_at": "2026-07-04T12:25:39Z",
     "id": "pma-jared-lank-bay-of-herons"
   },
   {
@@ -315,19 +348,8 @@
     "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2025/10/PMA2023-4931.webp",
     "description": null,
     "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
+    "scraped_at": "2026-07-04T12:25:39Z",
     "id": "pma-passages-in-american-art"
-  },
-  {
-    "title": "Winslow Homer: Painter,\u00a0Etcher",
-    "start_date": null,
-    "end_date": null,
-    "url": "https://www.portlandmuseum.org/exhibitions/winslow-homer-painter-etcher/",
-    "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/01/1930.379_Addison_excelLarge.avif",
-    "description": null,
-    "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
-    "id": "pma-winslow-homer-painter-etcher"
   },
   {
     "title": "Eve Biddle: Wonderlands",
@@ -337,7 +359,7 @@
     "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/03/2025.37.2_pm-scaled.avif",
     "description": null,
     "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
+    "scraped_at": "2026-07-04T12:25:39Z",
     "id": "pma-eve-biddle-wonderlands"
   },
   {
@@ -348,7 +370,7 @@
     "image_url": "https://www.portlandmuseum.org/wp-content/uploads/2026/03/Warm-Leatherette_EX5.2026.13-scaled.avif",
     "description": null,
     "school_id": "pma",
-    "scraped_at": "2026-06-13T14:13:47Z",
+    "scraped_at": "2026-07-04T12:25:39Z",
     "id": "pma-sascha-braunig-wrist-painter"
   },
   {
@@ -359,7 +381,7 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/111550/Her-room-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-by-design-the-worlds-of-betsy-james-wyethto"
   },
   {
@@ -370,7 +392,7 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/111551/ben-spalding-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-benjamin-spalding-go-bang-momentum-2026"
   },
   {
@@ -381,7 +403,7 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/110612/MAINE-A-Force-Within-American-Art-callout-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-maine-a-force-within-american-art-1890-2026"
   },
   {
@@ -392,7 +414,7 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/111554/Fitz-Henry-Lane-small-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-in-focus-early-american-art"
   },
   {
@@ -403,7 +425,7 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/111553/james-prosek-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-farnsworth-mural-project-james-prosek"
   },
   {
@@ -414,19 +436,8 @@
     "image_url": "https://www.farnsworthmuseum.org/wp-content/uploads/fly-images/111881/Exhibition-Tile-Joel-Babb-718x540.jpg",
     "description": null,
     "school_id": "farnsworth",
-    "scraped_at": "2026-06-13T14:13:48Z",
+    "scraped_at": "2026-07-04T12:25:40Z",
     "id": "farnsworth-shifting-vision-joel-babb-s-painted-universe"
-  },
-  {
-    "title": "Framing Nature: Gardens and Imagination",
-    "start_date": null,
-    "end_date": "2026-06-28",
-    "url": "https://www.mfa.org/exhibition/framing-nature-gardens-and-imagination",
-    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-05/031926MFANowruz_128-16x9.jpg?itok=OP1py41i",
-    "description": null,
-    "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
-    "id": "mfa-boston-framing-nature-gardens-and-imagination"
   },
   {
     "title": "Subvert, Repair, Reclaim: Contemporary Artists Take Back the Nude",
@@ -436,7 +447,7 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-04/TBTN_Solano_16x9.jpg?itok=AnTqFzMi",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-subvert-repair-reclaim-contemporary-artists-take-back-the-nude"
   },
   {
@@ -447,7 +458,7 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-02/SC517389_16x9.jpg?itok=DEZ0hkHd",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-fazendo-a-am-rica-ros-ngela-renn-and-histories-of-memory-and-migration-in-brazil"
   },
   {
@@ -458,8 +469,19 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2025-07/Faces_16x9_option%201.jpg?itok=VznYYU83",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-faces-in-the-crowd-street-photography"
+  },
+  {
+    "title": "The Banner Project: Joiri Minaya",
+    "start_date": null,
+    "end_date": "2027-06-21",
+    "url": "https://www.mfa.org/exhibition/the-banner-project-joiri-minaya",
+    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-06/JM---MFAB-Banner---1a_16x9.jpg?itok=81b2-pvJ",
+    "description": null,
+    "school_id": "mfa-boston",
+    "scraped_at": "2026-07-04T12:25:42Z",
+    "id": "mfa-boston-the-banner-project-joiri-minaya"
   },
   {
     "title": "Unbraid: Hair, Clay, and Craft",
@@ -469,41 +491,19 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-01/26.01.0098_SC514837_16x9.jpg?itok=H8kSkTc2",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-unbraid-hair-clay-and-craft"
-  },
-  {
-    "title": "Innovators and Influencers",
-    "start_date": null,
-    "end_date": "2026-06-23",
-    "url": "https://www.mfa.org/exhibition/innovators-and-influencers",
-    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-04/SC130087_16x9%20%281%29.jpg?itok=Bs3XhVsP",
-    "description": null,
-    "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
-    "id": "mfa-boston-innovators-and-influencers"
   },
   {
     "title": "Reality and Imagination: Rembrandt and the Jews in the Dutch Republic",
     "start_date": null,
     "end_date": "2026-11-29",
     "url": "https://www.mfa.org/exhibition/reality-and-imagination-rembrandt-and-the-jews-in-the-dutch-republic",
-    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2025-10/SC22394_16x9.jpg?itok=3294OTQy",
+    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-06/SC524706_16x9.jpg?itok=UbyBMM6y",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-reality-and-imagination-rembrandt-and-the-jews-in-the-dutch-republic"
-  },
-  {
-    "title": "The Banner Project: Mark Thomas Gibson",
-    "start_date": null,
-    "end_date": "2026-06-22",
-    "url": "https://www.mfa.org/exhibition/the-banner-project-mark-thomas-gibson",
-    "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2025-10/SC505629_16x9.jpg?itok=6koGQsTR",
-    "description": null,
-    "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
-    "id": "mfa-boston-the-banner-project-mark-thomas-gibson"
   },
   {
     "title": "Huntington Avenue Entrance Commission: The Knowledge Keepers",
@@ -513,7 +513,7 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2024-11/knowledge-keepers-sculptures_16x9.jpg?itok=-GULLAdw",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-huntington-avenue-entrance-commission-the-knowledge-keepers"
   },
   {
@@ -524,7 +524,7 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2026-05/SC522644_16x9.jpg?itok=CxUAxggB",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-community-arts-initiative-can-you-hear-the-city"
   },
   {
@@ -535,7 +535,7 @@
     "image_url": "https://d1nn9x4fgzyvn4.cloudfront.net/styles/scaled_562_wide/s3/2021-09/SC423904_16x9.jpg?itok=V_GMwAVh",
     "description": null,
     "school_id": "mfa-boston",
-    "scraped_at": "2026-06-13T14:13:51Z",
+    "scraped_at": "2026-07-04T12:25:42Z",
     "id": "mfa-boston-the-mural-project"
   },
   {
@@ -546,7 +546,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2024/11/Say-It-Loud-AAMARP-1977-to-Now_022026_0142B_Dario-Lasagni-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-say-it-loud-aamarp-1977-to-now"
   },
   {
@@ -557,7 +557,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/04/Derrick-Adams_Mel-Taing_1A3A5005-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-derrick-adams-view-master"
   },
   {
@@ -568,7 +568,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/04/ICAFirstFridaysMay-45-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-extra-ordinary"
   },
   {
@@ -579,7 +579,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/03/CMW20.001-Blues-and-Pinks-3-A-5-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-collection-spotlight-carrie-mae-weems"
   },
   {
@@ -590,7 +590,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/03/2017.04_image-08-1-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-collection-spotlight-nari-ward"
   },
   {
@@ -601,7 +601,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/12/To-My-Best-Friend_Alex-Yudzon_12-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-to-my-best-friend"
   },
   {
@@ -612,7 +612,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/07/Art-Wall_Caroline-Monnet_Mel-Taing_1A3A2737-2-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-caroline-monnet-man-made-land"
   },
   {
@@ -623,7 +623,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/03/1A3A7067-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-lucy-raven-rounds"
   },
   {
@@ -634,41 +634,41 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/10/Sonder-Postcard_1-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-sonder"
   },
   {
-    "title": "Crossroads",
-    "start_date": "2025-07-18",
-    "end_date": "2026-06-19",
-    "url": "https://www.icaboston.org/exhibitions/crossroads/",
-    "image_url": "https://www.icaboston.org/wp-content/uploads/2025/06/amber_0007-325x196.jpg",
-    "description": null,
-    "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
-    "id": "ica-boston-crossroads"
-  },
-  {
-    "title": "Leilah Babirye",
+    "title": "Leilah Babirye: Embaga\u00a0ya\u00a0Naki ne Naki (Wedding of Naki and Naki)",
     "start_date": "2026-08-27",
     "end_date": "2027-01-18",
     "url": "https://www.icaboston.org/exhibitions/leilah-babirye/",
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/05/Exhibition_Leilah-Babirye_Tuli-Mukwano-We-Are-in-Love-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
-    "id": "ica-boston-leilah-babirye"
+    "scraped_at": "2026-07-04T12:25:44Z",
+    "id": "ica-boston-leilah-babirye-embaga-ya-naki-ne-naki-wedding-of-naki-and-naki"
   },
   {
-    "title": "Cynthia Daignault",
+    "title": "Cynthia Daignault: Valley",
     "start_date": "2026-08-27",
     "end_date": "2027-01-18",
     "url": "https://www.icaboston.org/exhibitions/cynthia-daignault/",
     "image_url": "https://www.icaboston.org/wp-content/uploads/2025/10/Cynthia-Daignault_Elegy-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
-    "id": "ica-boston-cynthia-daignault"
+    "scraped_at": "2026-07-04T12:25:44Z",
+    "id": "ica-boston-cynthia-daignault-valley"
+  },
+  {
+    "title": "90 YEARS",
+    "start_date": "2026-10-15",
+    "end_date": "2027-03-07",
+    "url": "https://www.icaboston.org/exhibitions/90-years/",
+    "image_url": "https://www.icaboston.org/wp-content/uploads/2026/06/ICA-Archives_Warhol_1966_Opening-Preview-325x196.jpeg",
+    "description": null,
+    "school_id": "ica-boston",
+    "scraped_at": "2026-07-04T12:25:44Z",
+    "id": "ica-boston-90-years"
   },
   {
     "title": "Jennifer Tee",
@@ -678,7 +678,7 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/04/15537-front_Pc-Hyunjung-Rhee-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-jennifer-tee"
   },
   {
@@ -689,30 +689,19 @@
     "image_url": "https://www.icaboston.org/wp-content/uploads/2026/03/Brooke-Higher-Res-Celtics-Court-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
+    "scraped_at": "2026-07-04T12:25:44Z",
     "id": "ica-boston-brooke-stewart"
   },
   {
-    "title": "Firelei B\u00e1ez",
+    "title": "An Indigenous Present",
     "start_date": null,
     "end_date": null,
-    "url": "https://www.icaboston.org/exhibitions/firelei-baez-0/",
-    "image_url": "https://www.icaboston.org/wp-content/uploads/2023/10/BAEZ_Untitled-Les-tables-de-geographie-reduites-en-un-jeu-de-cartes-325x196.jpg",
+    "url": "https://www.icaboston.org/exhibitions/an-indigenous-present/",
+    "image_url": "https://www.icaboston.org/wp-content/uploads/2024/09/INDIGENOUS_Baker_TB-21281_Knife_River-e1746120820306-325x196.jpg",
     "description": null,
     "school_id": "ica-boston",
-    "scraped_at": "2026-06-13T14:13:56Z",
-    "id": "ica-boston-firelei-b-ez"
-  },
-  {
-    "title": "Picturing Isabella",
-    "start_date": "2026-02-19",
-    "end_date": "2026-06-28",
-    "url": "https://www.gardnermuseum.org/calendar/exhibition/picturing-isabella",
-    "image_url": "https://www.gardnermuseum.org/sites/default/files/styles/4_3_400x_300_focal_point/public/2022-06/010000.jpg?h=1dc4f8b3",
-    "description": null,
-    "school_id": "gardner",
-    "scraped_at": "2026-06-13T14:13:58Z",
-    "id": "gardner-picturing-isabella"
+    "scraped_at": "2026-07-04T12:25:44Z",
+    "id": "ica-boston-an-indigenous-present"
   },
   {
     "title": "Jamie Diamond: Monstra Te Esse Matrem, 2026",
@@ -722,7 +711,7 @@
     "image_url": "https://www.gardnermuseum.org/sites/default/files/styles/4_3_400x_300_focal_point/public/2025-12/Diamond_mockup.jpeg?h=05275875",
     "description": null,
     "school_id": "gardner",
-    "scraped_at": "2026-06-13T14:13:58Z",
+    "scraped_at": "2026-07-04T12:25:45Z",
     "id": "gardner-jamie-diamond-monstra-te-esse-matrem-2026"
   },
   {
@@ -733,7 +722,7 @@
     "image_url": "https://www.gardnermuseum.org/sites/default/files/styles/4_3_400x_300_focal_point/public/2026-05/138624_0_1.jpg?h=13c84ee7",
     "description": null,
     "school_id": "gardner",
-    "scraped_at": "2026-06-13T14:13:58Z",
+    "scraped_at": "2026-07-04T12:25:45Z",
     "id": "gardner-the-book-of-esther-in-the-age-of-rembrandt"
   },
   {
@@ -744,7 +733,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/EIMH_Share-FINAL.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-east-india-marine-hall"
   },
   {
@@ -755,7 +744,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/images/exhibition/Ex_Beyondthebroom_1800_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-beyond-the-broom-salem-short-films"
   },
   {
@@ -766,7 +755,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Kari-Russell-Pool-and-Marc-Petrovic-3-Birds-Flowers-2001-from-the-series-Banded-Vessels-2001-ongoing.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-studio-glass"
   },
   {
@@ -777,7 +766,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/KnowingNature_QRCodes_1800px_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-knowing-nature-stories-of-the-boreal-forest"
   },
   {
@@ -788,7 +777,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_Bootmaker_1800_Share.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-bootmaker-in-residence"
   },
   {
@@ -799,7 +788,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_Declaration_1800_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-pressing-importance-salem-and-the-declaration-of-independence"
   },
   {
@@ -810,7 +799,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_AmericanDecorative_SHARE_2_3600px.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-american-art-traditions-transformed"
   },
   {
@@ -821,7 +810,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_AnilaAghaAlltheFlowers_SHARE_1800.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-anila-quayyum-agha-all-the-flowers-are-for-me"
   },
   {
@@ -832,7 +821,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/coll_aea_strathallen-wallpaper_mob2.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-asian-export-art"
   },
   {
@@ -843,7 +832,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_BethanyCollinsHymnal_ShareTab_1700px.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-bethany-collins-america-a-hymnal"
   },
   {
@@ -854,7 +843,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_JapaneseArt_Share_1700px.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-japanese-art"
   },
   {
@@ -865,7 +854,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_KoreanArt_1800_Share.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-yu-kil-chun-gallery-of-korean-art-and-culture"
   },
   {
@@ -876,7 +865,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Collection_MaritimeArt_1700_01.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-maritime-art"
   },
   {
@@ -887,7 +876,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_OnThisGround_SHARE_1800.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-on-this-ground-being-and-belonging-in-america"
   },
   {
@@ -898,7 +887,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/coll_aea_mr-nobody_BG001.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-powerful-figures"
   },
   {
@@ -909,19 +898,8 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/blogStoriesAZ_1700_01.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-salem-stories"
-  },
-  {
-    "title": "South Asian Art",
-    "start_date": null,
-    "end_date": null,
-    "url": "https://www.pem.org/exhibitions/south-asian-art",
-    "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Maqbool-Fida-M.F.-Husain-Untitled-1986.jpg",
-    "description": null,
-    "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
-    "id": "pem-south-asian-art"
   },
   {
     "title": "The Pod",
@@ -931,7 +909,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Blog_PlanningPod_1600_5.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-the-pod"
   },
   {
@@ -942,7 +920,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_WitchTrials1692_Share_1700.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-the-salem-witch-trials-1692"
   },
   {
@@ -953,8 +931,19 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_VanessaPlatacis_Share_1700.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-vanessa-platacis-taking-place"
+  },
+  {
+    "title": "Salem Gets Dressed",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://www.pem.org/exhibitions/salem-gets-dressed",
+    "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/FashioninSalemDress3600_2026-06-24-162527_zaah.jpg",
+    "description": null,
+    "school_id": "pem",
+    "scraped_at": "2026-07-04T12:25:47Z",
+    "id": "pem-salem-gets-dressed"
   },
   {
     "title": "Isamu Noguchi I Am Not A Designer",
@@ -964,7 +953,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_Noguchi_1800_Share.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-isamu-noguchi-i-am-not-a-designer"
   },
   {
@@ -975,7 +964,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/images/exhibition/Ex_OrigamiInspiration_1800_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-origami-unfolded"
   },
   {
@@ -986,7 +975,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Stars-We-Do-Not-See_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-the-stars-we-do-not-see"
   },
   {
@@ -997,8 +986,19 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_DrivingForces_1800_SHARE.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-driving-forces-american-art-and-the-automobile"
+  },
+  {
+    "title": "South Asian Art",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://www.pem.org/exhibitions/south-asian-art",
+    "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Maqbool-Fida-M.F.-Husain-Untitled-1986.jpg",
+    "description": null,
+    "school_id": "pem",
+    "scraped_at": "2026-07-04T12:25:47Z",
+    "id": "pem-south-asian-art"
   },
   {
     "title": "Edmonia Lewis Said In Stone",
@@ -1008,7 +1008,7 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Ex_Edmonia_1800_Share.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-edmonia-lewis-said-in-stone"
   },
   {
@@ -1019,30 +1019,19 @@
     "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Press_VCelebratesIris100_1800_Share.jpg",
     "description": null,
     "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
+    "scraped_at": "2026-07-04T12:25:47Z",
     "id": "pem-fashion-and-design"
   },
   {
-    "title": "Double Happiness Celebration In Chinese Art",
+    "title": "Where\u2019s Boston? 50 Years Later",
     "start_date": null,
     "end_date": null,
-    "url": "https://www.pem.org/exhibitions/double-happiness-celebration-in-chinese-art",
-    "image_url": "https://s3.us-east-1.amazonaws.com/pem-org/general/Exhibition_DoubleHappiness_Share_1700px.jpg",
-    "description": null,
-    "school_id": "pem",
-    "scraped_at": "2026-06-13T14:14:00Z",
-    "id": "pem-double-happiness-celebration-in-chinese-art"
-  },
-  {
-    "title": "Imagined Nation",
-    "start_date": null,
-    "end_date": "2026-11-14",
-    "url": "https://bostonathenaeum.org/whats-on/exhibitions/imagined-nation/",
-    "image_url": "https://ml1bu7iavnet.i.optimole.com/w:1744/h:2100/q:mauto/f:best/https://bostonathenaeum.org/wp-content/uploads/2026/02/UR333-BPI2012.jpg",
+    "url": "https://bostonathenaeum.org/whats-on/exhibitions/50-years-later-wheres-boston/",
+    "image_url": "https://ml1bu7iavnet.i.optimole.com/w:2560/h:2255/q:mauto/f:best/https://bostonathenaeum.org/wp-content/uploads/2026/06/Manos_Bostonians_B01_D01_01_400-scaled.jpg",
     "description": null,
     "school_id": "boston-athenaeum",
-    "scraped_at": "2026-06-13T14:14:03Z",
-    "id": "boston-athenaeum-imagined-nation"
+    "scraped_at": "2026-07-04T12:25:49Z",
+    "id": "boston-athenaeum-where-s-boston-50-years-later"
   },
   {
     "title": "Re-Reading Special Collections",
@@ -1052,19 +1041,30 @@
     "image_url": "https://ml1bu7iavnet.i.optimole.com/w:766/h:606/q:mauto/f:best/https://bostonathenaeum.org/wp-content/uploads/2025/09/Website-Feature-Feature-766x606-3.jpg",
     "description": null,
     "school_id": "boston-athenaeum",
-    "scraped_at": "2026-06-13T14:14:03Z",
+    "scraped_at": "2026-07-04T12:25:49Z",
     "id": "boston-athenaeum-re-reading-special-collections"
   },
   {
-    "title": "Where\u2019s Boston? 50 Years Later",
+    "title": "Imagined Nation",
     "start_date": null,
-    "end_date": null,
-    "url": "https://bostonathenaeum.org/whats-on/exhibitions/50-years-later-wheres-boston/",
-    "image_url": "https://ml1bu7iavnet.i.optimole.com/w:766/h:606/q:mauto/f:best/https://bostonathenaeum.org/wp-content/uploads/2025/09/Website-Feature-Feature-766x606-4.jpg",
+    "end_date": "2026-11-14",
+    "url": "https://bostonathenaeum.org/whats-on/exhibitions/imagined-nation/",
+    "image_url": "https://ml1bu7iavnet.i.optimole.com/w:2560/h:1920/q:mauto/f:best/https://bostonathenaeum.org/wp-content/uploads/2026/06/202605_ImaginedNationCases_Rotation2_001-scaled.jpg",
     "description": null,
     "school_id": "boston-athenaeum",
-    "scraped_at": "2026-06-13T14:14:03Z",
-    "id": "boston-athenaeum-where-s-boston-50-years-later"
+    "scraped_at": "2026-07-04T12:25:49Z",
+    "id": "boston-athenaeum-imagined-nation"
+  },
+  {
+    "title": "Migration/Home",
+    "start_date": "2026-07-01",
+    "end_date": "2026-11-01",
+    "url": "https://www.brattleboromuseum.org/2026/06/15/migration-home/",
+    "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2026/06/7_Abdullah-Elhan-RGB-THUMB.jpg",
+    "description": "Migration/Home\u00a0is a public artwork organized by Brattleboro artist Jonathan Gitelson to coincide with the 250th anniversary of the signing of The Declaration of Independence. Gitelson commissioned the work from artists\u2026read more",
+    "school_id": "brattleboro",
+    "scraped_at": "2026-07-04T12:25:51Z",
+    "id": "brattleboro-migration-home"
   },
   {
     "title": "Peter Dellert: Big Choices",
@@ -1074,7 +1074,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2026/04/Dellert-Plugged-In-03-BANNER-THUMB.jpg",
     "description": "What you see on the museum\u2019s front lawn are part of a series of sculptures that enlarge vintage hand tools up to human scale. These works are not unlike the\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-peter-dellert-big-choices"
   },
   {
@@ -1085,7 +1085,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2023/12/TLR-Thumb.jpg",
     "description": "Let us become capable of generating a living culture once again. Let us dream of a wild earth, teeming with life and richness. We are not bereft. We are not\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-the-living-room"
   },
   {
@@ -1096,7 +1096,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/11/JudeGriebel_Dec2024_04a-THUMB.jpg",
     "description": "In his keenly detailed sculptures, ceramics, and drawings, Jude Griebel examines our complicated relationship with the creatures we consume.\u00a0 Griebel presents us with a variety of non-human animals in their\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-jude-griebel-elegy-for-the-consumed"
   },
   {
@@ -1107,7 +1107,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/10/Bronson-Smillie-Recording-Chart-for-Industrial-Monitoring-17-2023_Courtesy-of-the-artist-and-april-apr-THUMB.jpg",
     "description": "A test plot is a living laboratory: a piece of land designated for experimental research; a space that connects the individual studying it with the living organisms and environmental factors\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-test-plot-s"
   },
   {
@@ -1118,7 +1118,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/10/Nighthawks-2024-Charcoal-soft-pastel-and-pastel-pencil-on-watercolor-paper-11x15-THUMB.jpg",
     "description": "There is a time of year after trees give up their leaves, when you can see deep into the woods\u2014a world of contrast and subtlety, where gesture and movement are\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-michaela-harlow-a-certain-slant-of-light"
   },
   {
@@ -1129,7 +1129,7 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/10/perico-THUMB.jpg",
     "description": "Growing up in the English countryside southwest of London, Deirdre Hyde was surrounded by nature from a young age, and developed a fascination with the natural world. In 1979, when\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-deirdre-hyde-fragments-of-a-tropical-life"
   },
   {
@@ -1140,19 +1140,8 @@
     "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/10/2-Birds-of-Costa-Rica-THUMB.jpg",
     "description": "In her work as an illustrator, Robin Crofut-Brittingham uses watercolor to render the natural world in exquisite detail. This exhibit features selections from her recent book, The Illuminated Book of\u2026read more",
     "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
+    "scraped_at": "2026-07-04T12:25:51Z",
     "id": "brattleboro-robin-crofut-brittingham-migrations"
-  },
-  {
-    "title": "Jonathan Ryan Storm: Time Was a River, Too",
-    "start_date": "2025-04-30",
-    "end_date": "2026-06-30",
-    "url": "https://www.brattleboromuseum.org/2025/04/22/jonathan-ryan-storm-time-was-a-river-too/",
-    "image_url": "https://www.brattleboromuseum.org/wp-content/uploads/2025/04/JRS-thumb.jpg",
-    "description": "Jonathan Ryan Storm is a Vermont-based artist working in both paint and textiles. He creates undulating compositions that simultaneously trick and soothe the eye. Storm works intuitively, following his hand\u2026read more",
-    "school_id": "brattleboro",
-    "scraped_at": "2026-06-13T14:14:05Z",
-    "id": "brattleboro-jonathan-ryan-storm-time-was-a-river-too"
   },
   {
     "title": "Vermont Vice",
@@ -1162,7 +1151,7 @@
     "image_url": "https://benningtonmuseum.org/wp-content/uploads/VT-Vice-200x134.jpg",
     "description": null,
     "school_id": "bennington",
-    "scraped_at": "2026-06-13T14:14:07Z",
+    "scraped_at": "2026-07-04T12:25:52Z",
     "id": "bennington-vermont-vice"
   },
   {
@@ -1173,7 +1162,7 @@
     "image_url": "https://benningtonmuseum.org/wp-content/uploads/Pippin-1-200x168.jpg",
     "description": null,
     "school_id": "bennington",
-    "scraped_at": "2026-06-13T14:14:07Z",
+    "scraped_at": "2026-07-04T12:25:52Z",
     "id": "bennington-art-bridges"
   },
   {
@@ -1181,10 +1170,10 @@
     "start_date": "2026-04-02",
     "end_date": "2026-12-31",
     "url": "https://benningtonmuseum.org/portfolio-items/the-battle-of-bennington/?portfolioCats=67",
-    "image_url": "https://benningtonmuseum.org/wp-content/uploads/A2048-200x101.jpg",
+    "image_url": null,
     "description": null,
     "school_id": "bennington",
-    "scraped_at": "2026-06-13T14:14:07Z",
+    "scraped_at": "2026-07-04T12:25:52Z",
     "id": "bennington-the-battle-of-bennington"
   },
   {
@@ -1195,8 +1184,30 @@
     "image_url": "https://benningtonmuseum.org/wp-content/uploads/2016-19-059-2-gigapixel-standard-scale-4_00x-web-200x160.jpg",
     "description": null,
     "school_id": "bennington",
-    "scraped_at": "2026-06-13T14:14:07Z",
+    "scraped_at": "2026-07-04T12:25:52Z",
     "id": "bennington-across-the-street-historic-bennington"
+  },
+  {
+    "title": "NBOSS at the Museum",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://benningtonmuseum.org/portfolio-items/nboss-at-the-museum-2/?portfolioCats=67",
+    "image_url": "https://benningtonmuseum.org/wp-content/uploads/1000017649-200x292.jpg",
+    "description": null,
+    "school_id": "bennington",
+    "scraped_at": "2026-07-04T12:25:52Z",
+    "id": "bennington-nboss-at-the-museum"
+  },
+  {
+    "title": "Frank Lloyd Wright in Manchester: The Histories of the Zimmermans and Kalils",
+    "start_date": null,
+    "end_date": null,
+    "url": "https://www.currier.org/all-exhibitions",
+    "image_url": "https://static.wixstatic.com/media/e26a1f_596dbdf9020945f895476be40ddd304e~mv2.jpg/v1/fill/w_147,h_110,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/KH_Office_1_581.jpg",
+    "description": null,
+    "school_id": "currier",
+    "scraped_at": "2026-07-04T12:25:54Z",
+    "id": "currier-frank-lloyd-wright-in-manchester-the-histories-of-the-zimmermans-and-kalils"
   },
   {
     "title": "Embellish Me:Works from the Collection of Norma Canelas Roth and William Roth",
@@ -1206,7 +1217,7 @@
     "image_url": "https://static.wixstatic.com/media/e3ddc0_c6cc3fa8eb0e4bdc9a6a397432d0a09b~mv2.jpg/v1/fill/w_147,h_98,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/EmbellishMe-41.jpg",
     "description": null,
     "school_id": "currier",
-    "scraped_at": "2026-06-13T14:14:08Z",
+    "scraped_at": "2026-07-04T12:25:54Z",
     "id": "currier-embellish-me-works-from-the-collection-of-norma-canelas-roth-and-william-roth"
   },
   {
@@ -1217,7 +1228,7 @@
     "image_url": "https://static.wixstatic.com/media/9ff7cc_5d362ec4c1674f62b4c76b643c7060d2~mv2.jpg/v1/fill/w_147,h_164,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/High%20Res_%20Wendy%20Edwards%2C%20FLOURISH%2C%20oil%20on%20canvas%2C%2078%20x%2070%20inches%2C%202019.jpg",
     "description": null,
     "school_id": "currier",
-    "scraped_at": "2026-06-13T14:14:08Z",
+    "scraped_at": "2026-07-04T12:25:54Z",
     "id": "currier-flourishing-paintings-by-wendy-edwards"
   },
   {
@@ -1228,7 +1239,7 @@
     "image_url": "https://static.wixstatic.com/media/e3ccf6_ff27454b61fb40e083cb83fa88255f18~mv2.jpg/v1/crop/x_1602,y_940,w_998,h_312/fill/w_147,h_46,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/2021_40_edited.jpg",
     "description": null,
     "school_id": "currier",
-    "scraped_at": "2026-06-13T14:14:08Z",
+    "scraped_at": "2026-07-04T12:25:54Z",
     "id": "currier-paintings-from-tomie-depaola-sfront-porch-tales-north-country-whoppers"
   },
   {
@@ -1239,7 +1250,7 @@
     "image_url": "https://static.wixstatic.com/media/e26a1f_9bfa876ef58f4176914655adef8e0222~mv2.png/v1/fill/w_49,h_34,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Screenshot%202025-05-04%20at%2012_11_24%E2%80%AFPM.png",
     "description": null,
     "school_id": "currier",
-    "scraped_at": "2026-06-13T14:14:08Z",
+    "scraped_at": "2026-07-04T12:25:54Z",
     "id": "currier-nicolas-party-and-surrealism-an-artist-s-take-on-the-movement"
   },
   {
@@ -1250,7 +1261,7 @@
     "image_url": "https://static.wixstatic.com/media/e26a1f_70f8cc3b7b424d30b1e26ce358181ef7~mv2.jpg/v1/fill/w_147,h_55,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/AnnAgee_WebHeader-01-1%20(1).jpg",
     "description": null,
     "school_id": "currier",
-    "scraped_at": "2026-06-13T14:14:08Z",
+    "scraped_at": "2026-07-04T12:25:54Z",
     "id": "currier-ann-agee-madonna-of-the-girl-child"
   }
 ]

@@ -31,10 +31,10 @@ class FarnsworthScraper(BaseScraper):
 
             # The link text contains title + date run together
             # e.g. "Benjamin Spalding: Go Bang! | Momentum 2026Through September 20, 2026"
-            full_text = link.get_text(strip=True)
+            full_text = link.get_text(strip=True).replace("\xa0", " ")
 
-            # Split title from date — look for "Through", "January", "February", etc.
-            date_pattern = r"(Through\s|January|February|March|April|May|June|July|August|September|October|November|December)"
+            # Split title from date: "Through"/"To" or a month name
+            date_pattern = r"(Through\s|To\s|January|February|March|April|May|June|July|August|September|October|November|December)"
             m = re.search(date_pattern, full_text)
             if m:
                 title = full_text[:m.start()].strip()

@@ -12,6 +12,11 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
+try:
+    from curl_cffi import requests as curl_requests
+except ImportError:
+    curl_requests = None
+
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 
@@ -33,9 +38,17 @@ class BaseScraper:
     }
 
     def fetch(self, url: str | None = None) -> BeautifulSoup:
-        """Fetch a page and return parsed BeautifulSoup."""
+        """Fetch a page and return parsed BeautifulSoup.
+
+        Uses curl_cffi with Chrome TLS impersonation when available;
+        several museums (e.g. MFA Boston) sit behind Cloudflare, which
+        403s plain requests based on TLS fingerprint alone.
+        """
         url = url or self.exhibitions_url
-        resp = requests.get(url, headers=self.HEADERS, timeout=30)
+        if curl_requests is not None:
+            resp = curl_requests.get(url, impersonate="chrome", timeout=30)
+        else:
+            resp = requests.get(url, headers=self.HEADERS, timeout=30)
         resp.raise_for_status()
         return BeautifulSoup(resp.text, "lxml")
 
@@ -67,8 +80,8 @@ class BaseScraper:
         if re.match(r"(?i)^ongoing", text):
             return None, None
 
-        # "Through <date>"
-        m = re.match(r"(?i)^through\s+(.+)", text)
+        # "Through <date>" / "To <date>"
+        m = re.match(r"(?i)^(?:through|to)\s+(.+)", text)
         if m:
             end = self._parse_single_date(m.group(1))
             return None, end

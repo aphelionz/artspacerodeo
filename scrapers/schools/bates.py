@@ -9,50 +9,45 @@ from scrapers.base import BaseScraper
 
 class BatesScraper(BaseScraper):
     school_id = "bates"
-    exhibitions_url = "https://www.bates.edu/museum/exhibitions/"
+    # The /museum/exhibitions/ page goes stale (it still listed a 2025 show
+    # in July 2026); the homepage hover-board slider is what the museum
+    # actually keeps current.
+    exhibitions_url = "https://www.bates.edu/museum/"
 
     def scrape(self):
         soup = self.fetch()
         exhibitions = []
+        seen = set()
 
-        # Bates exhibition pages live at /museum/EXHIBITION-SLUG/
-        # The exhibitions page has sections for current and upcoming shows.
-        # Look for image+text cards that link to exhibition detail pages.
-        # Key insight: real exhibition links have images alongside them.
-
-        # Find all figure/media-text blocks or containers that have both an image and a link
-        for container in soup.select(".wp-block-media-text, .wp-block-group, .wp-block-columns, article, figure"):
-            img = container.select_one("img")
-            link = container.select_one("a[href*='/museum/']")
-            if not link:
+        # Current shows live in hover-board slides: a div with a
+        # background-image style containing h2 (title), p (dates),
+        # and a link to the exhibition page.
+        for board in soup.select(".wp-block-bates-framework-hover-board"):
+            heading = board.find(["h2", "h3"])
+            link = board.find("a", href=re.compile(r"bates\.edu/museum/|^/museum/"))
+            if not heading or not link:
                 continue
 
-            href = link.get("href", "")
-            # Must be a direct child page of /museum/
-            if not re.search(r"/museum/[a-z][\w-]+/?$", href):
-                continue
-            if href.rstrip("/").endswith(("/museum", "/museum/exhibitions")):
-                continue
-
-            # Get title from heading or link text
-            heading = container.select_one("h2, h3, h4")
-            title = heading.get_text(strip=True) if heading else link.get_text(strip=True)
+            title = heading.get_text(strip=True)
             if not title or len(title) < 5:
                 continue
 
-            image_url = img.get("src") or img.get("data-src") if img else None
+            href = link["href"]
             url = href if href.startswith("http") else f"https://www.bates.edu{href}"
+            if url in seen:
+                continue
+            seen.add(url)
 
-            # Look for date text
-            text = container.get_text(" ", strip=True)
+            image_url = None
+            style = board.get("style", "")
+            m = re.search(r"background-image:\s*url\(['\"]?(.*?)['\"]?\)", style)
+            if m:
+                image_url = m.group(1)
+
             start, end = None, None
-            date_match = re.search(
-                r"(\w+ \d{1,2})\s*[-–—]\s*(\w+ \d{1,2},?\s*\d{4})",
-                text,
-            )
-            if date_match:
-                date_str = f"{date_match.group(1)} - {date_match.group(2)}"
-                start, end = self.parse_date_range(date_str)
+            date_p = board.find("p")
+            if date_p:
+                start, end = self.parse_date_range(date_p.get_text(strip=True))
 
             exhibitions.append({
                 "title": title,
@@ -63,12 +58,4 @@ class BatesScraper(BaseScraper):
                 "description": None,
             })
 
-        # Deduplicate by URL
-        seen = set()
-        unique = []
-        for ex in exhibitions:
-            if ex["url"] not in seen:
-                seen.add(ex["url"])
-                unique.append(ex)
-
-        return unique
+        return exhibitions

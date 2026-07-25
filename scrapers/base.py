@@ -37,20 +37,36 @@ class BaseScraper:
         "Accept-Language": "en-US,en;q=0.9",
     }
 
+    # Some museum sites (e.g. Bennington) respond slowly and intermittently
+    # blow past a single 30s attempt. Retry transient failures before giving up.
+    FETCH_TIMEOUT = 45
+    FETCH_RETRIES = 3
+
     def fetch(self, url: str | None = None) -> BeautifulSoup:
         """Fetch a page and return parsed BeautifulSoup.
 
         Uses curl_cffi with Chrome TLS impersonation when available;
         several museums (e.g. MFA Boston) sit behind Cloudflare, which
         403s plain requests based on TLS fingerprint alone.
+
+        Retries transient failures (timeouts, connection resets) with a
+        short backoff so a single slow response doesn't zero out a scraper.
         """
         url = url or self.exhibitions_url
-        if curl_requests is not None:
-            resp = curl_requests.get(url, impersonate="chrome", timeout=30)
-        else:
-            resp = requests.get(url, headers=self.HEADERS, timeout=30)
-        resp.raise_for_status()
-        return BeautifulSoup(resp.text, "lxml")
+        last_err: Exception | None = None
+        for attempt in range(self.FETCH_RETRIES):
+            try:
+                if curl_requests is not None:
+                    resp = curl_requests.get(url, impersonate="chrome", timeout=self.FETCH_TIMEOUT)
+                else:
+                    resp = requests.get(url, headers=self.HEADERS, timeout=self.FETCH_TIMEOUT)
+                resp.raise_for_status()
+                return BeautifulSoup(resp.text, "lxml")
+            except Exception as e:  # noqa: BLE001 - retry any transient fetch error
+                last_err = e
+                if attempt < self.FETCH_RETRIES - 1:
+                    time.sleep(2 * (attempt + 1))
+        raise last_err
 
     def make_id(self, title: str) -> str:
         """Generate a stable ID from school_id + title."""
@@ -140,6 +156,7 @@ class BaseScraper:
         "student involvement", "interns' blog", "museum podcast",
         "senior thesis exhibitions", "collection highlights",
         "common questions", "join our mailing list",
+        "accessibility commitment for bennington museum",
     }
 
     @staticmethod

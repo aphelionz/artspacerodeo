@@ -4,6 +4,13 @@ import re
 
 from scrapers.base import BaseScraper
 
+# "September 4, 2026 - January 10, 2027" and the year-less "March 1 - May 15,
+# 2026". The year on the start date is optional: Middlebury carries one, and
+# requiring it absent silently dropped every date on the page.
+DATE_RANGE_RE = re.compile(
+    r"(\w+ \d{1,2}(?:,\s*\d{4})?)\s*[-–—]\s*(\w+ \d{1,2},?\s*\d{4})"
+)
+
 
 class MiddleburyScraper(BaseScraper):
     school_id = "middlebury"
@@ -41,19 +48,21 @@ class MiddleburyScraper(BaseScraper):
                     image_url = src or None
 
                 text = container.get_text(" ", strip=True)
-                date_match = re.search(
-                    r"(\w+ \d{1,2})\s*[-–—]\s*(\w+ \d{1,2},?\s*\d{4})",
-                    text,
-                )
+                date_match = DATE_RANGE_RE.search(text)
                 if date_match:
                     date_str = f"{date_match.group(1)} - {date_match.group(2)}"
                     start, end = self.parse_date_range(date_str)
 
                 for p in container.select("p"):
                     p_text = p.get_text(strip=True)
-                    if p_text and p_text != title and len(p_text) > 20:
-                        description = p_text[:300]
-                        break
+                    if not p_text or p_text == title or len(p_text) <= 20:
+                        continue
+                    # The run dates sit in their own paragraph above the blurb;
+                    # without this they win and the real description is lost.
+                    if DATE_RANGE_RE.fullmatch(p_text.replace("\xa0", " ").strip()):
+                        continue
+                    description = p_text[:300]
+                    break
 
             exhibitions.append({
                 "title": title,
